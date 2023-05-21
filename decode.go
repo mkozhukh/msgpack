@@ -97,7 +97,7 @@ func (d *Decoder) Reset(r io.Reader) {
 func (d *Decoder) ResetDict(r io.Reader, dict []string) {
 	d.resetReader(r)
 	d.flags = 0
-	d.structTag = ""
+	d.structTag = "json"
 	d.mapDecoder = nil
 	d.dict = dict
 }

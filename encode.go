@@ -109,7 +109,7 @@ func (e *Encoder) Reset(w io.Writer) {
 func (e *Encoder) ResetDict(w io.Writer, dict map[string]int) {
 	e.resetWriter(w)
 	e.flags = 0
-	e.structTag = ""
+	e.structTag = "json"
 	e.dict = dict
 }
 
