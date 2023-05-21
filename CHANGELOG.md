@@ -1,4 +1,4 @@
-## [5.3.5](https://github.com/vmihailenco/msgpack/compare/v5.3.4...v5.3.5) (2021-10-22)
+## [5.3.5](https://github.com/mkozhukh/msgpack/compare/v5.3.4...v5.3.5) (2021-10-22)
 
 - Allow decoding `nil` code as boolean false.
 
